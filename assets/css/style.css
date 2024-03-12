@@ -23,6 +23,23 @@ body {
     bottom: 30px;
 }
 
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+    overflow: auto;
+}
+nav li {
+    float: left;
+}
+li a {
+    display: block;
+    color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center
+}
+
 .pic {
     width: 50%;
     height: 50%;
