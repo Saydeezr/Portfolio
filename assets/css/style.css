@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(241, 238, 233);
+    flex-wrap: wrap;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+
+.Edition {
+    text-align: left;
+    position: relative;
+    top: 5px;
+}
+
+.date {
+    text-align: right;
+    position: relative;
+    bottom: 30px;
+}
