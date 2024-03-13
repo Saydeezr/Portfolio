@@ -3,24 +3,22 @@ body {
     flex-wrap: wrap;
 }
 
-.title {
-    font-size: 70px;
-    font-family: 'Times New Roman', Times, serif;
-    height: 20px;
-    width: 100%;
-    text-align: center;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .Edition {
     text-align: left;
     position: relative;
-    top: 5px;
+    top: 69px;
 }
 
 .date {
     text-align: right;
     position: relative;
-    bottom: 30px;
 }
 
 ul {
@@ -35,33 +33,35 @@ nav li {
 li a {
     display: block;
     color: black;
-    padding-left: 100px;
+    padding-left: 262px;
     padding-right: 100px;
     text-align: center
 }
 
 main h2 {
     text-align: center;
-    font-size: 40px;    
+    font-size: 6.5em; 
+    font-family: 'League Gothic', sans-serif;   
 }
 
 .pic {
     width: 40%;
     height: 40%;
-    padding-left: 10%;
+    padding-left: 7%;
 }
 
 
 .columns {
     column-count: 2;
     column-gap: 50px;
-    padding: 35px;
+    padding: 5%;
+    font-size: 18px;
 }
 
 main p {
     line-height: 1.6;
     text-align: justify;
-    margin: 0;
+    margin: 10%;
 }
 
 #About-Me {
