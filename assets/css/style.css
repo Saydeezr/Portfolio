@@ -1,25 +1,19 @@
 body {
     background-color: #f1eee9;
-    flex-wrap: wrap;
 }
 
-.center {
-    display: block;
+.Logo {
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
 }
-
-.Edition {
-    text-align: left;
-    position: relative;
-    top: 69px;
+.detail {
+    display: inline-block;
+    margin: 0.5rem;
+    vertical-align: text-bottom
 }
 
-.date {
-    text-align: right;
-    position: relative;
-}
 
 ul {
     list-style-type: none;
