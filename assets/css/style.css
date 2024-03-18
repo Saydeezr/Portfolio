@@ -23,7 +23,9 @@ ul {
 }
 nav li {
     float: left;
+    flex-wrap: nowrap;
 }
+
 li a {
     display: block;
     color: black;
