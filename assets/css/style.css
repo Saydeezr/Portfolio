@@ -112,14 +112,16 @@ section{
     max-height: 150px;
     flex-basis: calc(50% - 1em);
     margin: 5px;
-    background-color: blueviolet;
+    background-color: rgb(211, 211, 211);
     background-size: cover;
+    color: black;
+    text-decoration: none;
 }
 
 .boxOne{
     flex-basis: 100%;
     min-height: 350px;
-    background-color: aquamarine;
+    background-color: #c2c2c2;
 }
 
 
